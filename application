@@ -1,1 +1,6 @@
 //New file comment
+
+npm init -y
+npm install readline-sync
+const readline = require('readline-sync');
+const question = readline.question('Select an index number to find the character at that index ');
